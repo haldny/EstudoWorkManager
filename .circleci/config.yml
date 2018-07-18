@@ -11,7 +11,7 @@ jobs:
           JAVA_OPTS: -Xmx1536m
           GRADLE_OPTS: '-Dorg.gradle.daemon=false -Dorg.gradle.jvmargs="-Xmx1536m -XX:+HeapDumpOnOutOfMemoryError"'
 
-    working_directory: ~/repo
+    working_directory: ~/app
     
     steps:
       - checkout
